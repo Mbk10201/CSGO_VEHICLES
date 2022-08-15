@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/golf_7/gti_glas_c"
+	"$bumpmap"    "models/roleplay/vehicles/golf_7/gti_glas_nm"
+	"$nodecal" "1"
+	"$translucent" 1
+	"$phong" 1
+	"$phongboost" ".15"
+	"$phongexponent" 2
+	"$phongfresnelranges" "[0.10 0.6 1.5]"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

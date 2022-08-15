@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/shared/skin"
+	"$bumpmap" "models/skyautomotive/bmw_m5f90/rims2"
+	
+  	"$surfaceprop" "metal"
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.01 .01 .01]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" "1"
+    	"$envmapfresnel" "1"
+
+	"$phong" "1" 
+	"$phongboost" ".3" 
+	"$phongexponent" 10
+	"$phongfresnelranges" "[1 1 1]" 
+
+	"$nodecal" "1"
+
+	"$colorfix" "{25 25 25}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

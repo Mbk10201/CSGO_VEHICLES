@@ -1,0 +1,33 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/mas_ghibli/lights"
+	$bumpmap "models/roleplay/vehicles/mas_ghibli/lights_nrm"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.02 0.02 0.02]"
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$halflambert 1
+	$phongexponent 50
+	$phongboost 0.5
+
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0.1
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

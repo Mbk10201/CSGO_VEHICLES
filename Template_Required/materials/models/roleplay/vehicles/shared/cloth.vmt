@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/shared/cloth"
+	"$blendtintbybasealpha" 1
+	"$bumpmap" "models/roleplay/vehicles/shared/cloth_bump"
+	"$nodecal" "1"
+}

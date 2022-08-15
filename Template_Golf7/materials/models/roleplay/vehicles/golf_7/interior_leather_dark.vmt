@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/leather_dark"
+
+	$basetexturetransform "center 0.5 0.5 scale 12 12 rotate 0 translate 0 0"
+
+	$colorfix "{1 1 1}"
+}

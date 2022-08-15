@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/crskautos/dodge/challenger_hellcat_2015/vehiclelights128_3"
+
+"$bumpmap"    "models/crskautos/shared/common/steklo_km"
+	"$envmap" env_cubemap
+    "$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "4" 
+	"$phongexponent" "50"
+	"$phongfresnelranges" "[4 1 4]"
+	"$surfaceprop" "Glass"
+	"$envmapFresnel" "1"
+	"$envmaptint" "[.027 .027 .027]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

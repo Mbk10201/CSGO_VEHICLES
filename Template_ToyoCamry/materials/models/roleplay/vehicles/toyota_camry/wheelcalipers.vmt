@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/toyota_camry/wheel"
+	$bumpmap "models/roleplay/vehicles/toyota_camry/wheel_nm"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.01 0.01 0.01]"
+	$envmapcontrast 1
+	$envmapsaturation 0.1
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 24
+	$phongboost 0.5
+
+	$nodecal 1
+
+	$colorfix "{250 250 250}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

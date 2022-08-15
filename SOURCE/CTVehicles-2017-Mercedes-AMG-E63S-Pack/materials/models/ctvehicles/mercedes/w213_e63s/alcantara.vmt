@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+    "$basetexturetransform" "center .5 .5 scale 240 240 rotate 0 translate 0 0"
+	$basetexture "models/ctvehicles/shared/projectcars/common_alcantara01_mediumgrey_diff"
+    "$bumpmap" "models/ctvehicles/shared/projectcars/common_alcantara01_norm"
+    "$nodecal" "1"
+	"$halflambert" 1
+    "$phong" "1" 
+	"$phongboost" "0.47" 
+	"$phongfresnelranges" "[.05 .12 0.2]" 
+	"$phongexponent" 7
+    "$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+    "$detail" "models/ctvehicles/shared/projectcars/common_alcantara_spec"
+    "$detailscale" "240"
+	"$detailblendfactor" "0.93"
+	"$detailblendmode" "0"
+    "$rimmask" "1"
+    "$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

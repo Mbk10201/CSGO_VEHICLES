@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/props/beacon_02"
+	"$nocull" "1"
+	"$nodecal" "1"
+   	$surfaceprop "metal"
+
+    	$phong "1"
+    	$phongexponent "2"
+    	$phongboost "0.3"
+    	$phongfresnelranges "[ .2 .2 1]"
+
+}

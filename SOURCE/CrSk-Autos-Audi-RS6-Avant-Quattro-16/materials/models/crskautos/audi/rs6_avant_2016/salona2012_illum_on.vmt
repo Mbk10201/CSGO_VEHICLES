@@ -1,0 +1,24 @@
+"unLitGeneric"
+{
+$alphatest 1
+$allowalphatocoverage 1
+	$basetexture "models/crskautos/audi/rs6_avant_2016/salona2012_tr"
+"$bumpmap" "models/crskautos/shared/common/kraska_km"
+	"$nodecal" "1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost"	"3"
+    "$envmapfresnel" "1.5"
+	"$phongfresnelranges" "[.41 .72 .43]"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$phongfix" "{22 22 22}"
+    "$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

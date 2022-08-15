@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/toyota_camry/fabric"
+	$bumpmap "models/roleplay/vehicles/toyota_camry/fabric_n"
+	$surfaceprop Metal
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 100
+
+	$nodecal 1
+
+	$colorfix "{200 200 200}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

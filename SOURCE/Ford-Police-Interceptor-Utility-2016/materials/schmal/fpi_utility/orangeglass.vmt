@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "schmal/fpi_utility/orangeglass"
+	"$bumpmap" "schmal/shared/flat"
+	"$translucent" 1
+	"$phong" 1
+	"$phongtint" "[2 .5 .25]"
+	"$phongexponent" 75
+	"$phongboost" "10"
+	"$phongfresnelranges" "[1 0 0]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.75 0 0]"
+	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$nodecal" "1"
+}

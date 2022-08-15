@@ -1,0 +1,43 @@
+VertexLitGeneric
+{
+	$basetexture "dev/bump_normal"
+	$bumpmap "models/roleplay/vehicles/shared/skin_paintflakes_bump"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.30 0.30 0.31]"
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.7 1]"
+	$phongwarptexture "models/lonewolfiescars/shared/skin10_warp"
+	$phongexponent 2
+	$phongboost 5
+
+	$rimlight 1
+	$rimlightexponent 2
+	$rimlightboost 1
+
+	$basetexturetransform "center 0 0 scale 70 70 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$phongfix "{1 1 1}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$color"
+			resultVar "$phongtint"
+		}
+
+		Add
+		{
+			srcVar1 "$phongfix"
+			srcVar2 "$phongtint"
+			resultVar "$phongtint"
+		}
+	}
+}

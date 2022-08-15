@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/golf_7/gti_rear_lights_c"
+	$bumpmap "models/roleplay/vehicles/golf_7/gti_gas_cap_nm"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongtint "[1 0.15 0]"
+	$phongexponent 50
+	$phongboost 20
+}

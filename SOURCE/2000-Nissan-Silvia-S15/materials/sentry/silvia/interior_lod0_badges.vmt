@@ -1,0 +1,17 @@
+"UnLitGeneric"
+{
+	"$basetexture" "sentry/silvia/interior"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
+

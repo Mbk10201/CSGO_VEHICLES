@@ -1,0 +1,13 @@
+// Created by Crowbar 0.71
+
+$declaresequence "idle"
+$declaresequence "turning"
+$declaresequence "wheel_fr_suspension"
+$declaresequence "wheel_fr_spin"
+$declaresequence "wheel_fl_suspension"
+$declaresequence "wheel_fl_spin"
+$declaresequence "wheel_rr_suspension"
+$declaresequence "wheel_rr_spin"
+$declaresequence "wheel_rl_suspension"
+$declaresequence "wheel_rl_spin"
+$declaresequence "vehicle_guage"

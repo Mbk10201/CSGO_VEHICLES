@@ -1,0 +1,25 @@
+UnlitGeneric
+{
+	$basetexture "models/roleplay/vehicles/audi_rs6/runninglights_on"
+	$bumpmap "models/roleplay/vehicles/audi_rs6/runninglights_n"
+
+	$phong 1
+	$phongexponent 25
+	$phongamount "[1 1 1 1]"
+
+	$basetexturetransform "center 0.5 0.5 scale 1.5 7 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$colorfix "{1255 1255 1255}"
+	$phongfix "{22 22 22}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

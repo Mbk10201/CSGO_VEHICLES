@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/glass"
+	$bumpmap "dev/bump_normal"
+
+	$translucent 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[1 1 0.80]"
+
+	$phong 1
+	$phongfresnelranges "[1.3 2 5]"
+	$phongexponent 800
+	$phongboost 2
+
+	$rimlight 1
+	$rimlightexponent 4
+	$rimlightboost 1
+
+	$basetexturetransform "center 0 0 scale 70 70 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/black"
+	$bumpmap "dev/bump_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.02 0.02 0.02]"
+}

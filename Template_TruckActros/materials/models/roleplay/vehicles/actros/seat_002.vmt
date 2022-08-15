@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/actros/seat_002"
+	$bumpmap "models/roleplay/vehicles/shared/fabric_bump"
+
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.3 0.3 1]"
+	$phongexponent 1
+	$phongboost 0.1
+
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0.1
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

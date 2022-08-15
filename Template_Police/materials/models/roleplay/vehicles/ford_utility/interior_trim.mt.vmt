@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "schmal/fpi_utility/dash_material"
+	 $nocull "1"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+    $phongexponent "8"
+    $phongboost "10"
+    $phongfresnelranges "[ 1 1 1]"
+	"$rimlight" "10"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$phongfix" "{1 1 1}"
+   	$surfaceprop "metal"
+    	$envmap "env_cubemap"
+   	 $envmaptint "[.1 .1 .1]"
+	"$nodecal" "1"
+}

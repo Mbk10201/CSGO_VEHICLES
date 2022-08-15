@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/shared/ac_carpet"
+	"$bumpmap" "models/roleplay/vehicles/shared/ac_carpet_n"
+	
+  	"$surfaceprop" "metal"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongexponent" 100
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{200 200 200}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

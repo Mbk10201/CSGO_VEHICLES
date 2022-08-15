@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .1 .1 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/trucks/shared/material_base"
+	"$bumpmap" "models/lonewolfiescars/trucks/shared/leather_rough_bump"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.04" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{37 37 37}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

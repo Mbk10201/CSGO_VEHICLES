@@ -1,0 +1,27 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/shared/white"
+
+	"$normalmapalphaenvmapmask" 1
+    	"$selfillum" "1"
+	"$translucent" "1"
+
+	"$additive" <bool>
+
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" "500"	
+	"$phongfresnelranges"	"[1 1 1]"
+
+	"$nodecal" "1"
+
+	"$colorfix" "{255 0 0}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

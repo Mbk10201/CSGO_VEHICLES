@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+$basetexture "models/crskautos/shared/common/chernyi"
+$bumpmap    "models/crskautos/shared/common/steklo_km"
+	"$envmap" env_cubemap
+                "$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "4" 
+	"$phongexponent" "60"
+	"$phongfresnelranges" "[0.4 1 3]"
+	"$surfaceprop" "Glass"
+	"$envmapFresnel" "1"
+	"$envmaptint" "[.007 .007 .007]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+
+}

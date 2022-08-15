@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/alcantara"
+	$bumpmap "models/roleplay/vehicles/shared/alcantara_nrm"
+
+	$phong 1
+	$phongexponenttexture "models/roleplay/vehicles/shared/alcantara_exmask"
+	$phongfresnelranges "[1 1 1]"
+	$phongboost 0
+
+	$rimlight 1
+	$rimlightexponent 2
+	$rimlightboost 4
+
+	$colorfix "{45 45 45}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

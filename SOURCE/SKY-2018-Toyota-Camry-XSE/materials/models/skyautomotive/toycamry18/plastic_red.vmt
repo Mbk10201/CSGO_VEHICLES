@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/shared/skin"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongexponent" 50
+	"$phongfresnelranges" "[1 1 1]" 
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.5 .5 .5]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" ".1"
+    	"$envmapfresnel" "1"
+
+	"$nodecal" "1"
+
+	"$colorfix" "{250 50 50}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

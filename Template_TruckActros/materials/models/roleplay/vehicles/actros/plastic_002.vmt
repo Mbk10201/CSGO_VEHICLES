@@ -1,0 +1,31 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/fabric_diamond"
+	$bumpmap "models/roleplay/vehicles/shared/fabric_diamond_nm"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.2 2]"
+	$halflambert 1
+	$phongexponent 3
+	$phongboost 0.2
+
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0.1
+
+	$basetexturetransform "center 0.5 0.5 scale 0.3 0.3 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$colorfix "{55 55 55}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

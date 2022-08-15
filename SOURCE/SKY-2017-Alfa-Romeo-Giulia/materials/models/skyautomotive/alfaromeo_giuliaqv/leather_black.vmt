@@ -1,0 +1,42 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .05 .05 scale 2 2 rotate 0 translate 0 0"
+
+	"$basetexture" "models\skyautomotive\shared\skin"
+	"$bumpmap" "models\skyautomotive\shared\leather_light_bump"
+
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" ".05" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 12
+	"$phongexponenttexture" "models\skyautomotive\shared\leather_light"
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.002 .002 .002]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" ".1"
+    	"$envmapfresnel" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".2"
+	"$rimmask" "1"
+
+	"$detail" "models\skyautomotive\shared\leather_light"
+	"$detailscale" "4"
+	"$detailblendfactor" "0.2"
+	"$detailblendmode" "0"
+
+	"$colorfix" "{30 30 30}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,100 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "car.col" -1
+  1 "car.view" 0
+  2 "car.steer" 0
+  3 "car.axle_fr" 0
+  4 "car.wheel_fr" 3
+  5 "car.axle_fl" 0
+  6 "car.wheel_fl" 5
+  7 "car.axle_rl" 0
+  8 "car.wheel_rl" 7
+  9 "car.axle_rr" 0
+  10 "car.wheel_rr" 9
+  11 "pelvis" -1
+  12 "spine_0" 11
+  13 "spine_1" 12
+  14 "spine_2" 13
+  15 "spine_3" 14
+  16 "neck_0" 15
+  17 "head_0" 16
+  18 "clavicle_L" 15
+  19 "arm_upper_L" 18
+  20 "arm_lower_L" 19
+  21 "hand_L" 20
+  22 "finger_middle_meta_L" 21
+  23 "finger_middle_0_L" 22
+  24 "finger_middle_1_L" 23
+  25 "finger_middle_2_L" 24
+  26 "finger_pinky_meta_L" 21
+  27 "finger_pinky_0_L" 26
+  28 "finger_pinky_1_L" 27
+  29 "finger_pinky_2_L" 28
+  30 "finger_index_meta_L" 21
+  31 "finger_index_0_L" 30
+  32 "finger_index_1_L" 31
+  33 "finger_index_2_L" 32
+  34 "finger_thumb_0_L" 21
+  35 "finger_thumb_1_L" 34
+  36 "finger_thumb_2_L" 35
+  37 "finger_ring_meta_L" 21
+  38 "finger_ring_0_L" 37
+  39 "finger_ring_1_L" 38
+  40 "finger_ring_2_L" 39
+  41 "weapon_hand_L" 21
+  42 "lh_ik_driver" 21
+  43 "arm_lower_L_TWIST" 20
+  44 "arm_lower_L_TWIST1" 20
+  45 "arm_upper_L_TWIST" 19
+  46 "arm_upper_L_TWIST1" 19
+  47 "clavicle_R" 15
+  48 "arm_upper_R" 47
+  49 "arm_lower_R" 48
+  50 "hand_R" 49
+  51 "finger_middle_meta_R" 50
+  52 "finger_middle_0_R" 51
+  53 "finger_middle_1_R" 52
+  54 "finger_middle_2_R" 53
+  55 "finger_pinky_meta_R" 50
+  56 "finger_pinky_0_R" 55
+  57 "finger_pinky_1_R" 56
+  58 "finger_pinky_2_R" 57
+  59 "finger_index_meta_R" 50
+  60 "finger_index_0_R" 59
+  61 "finger_index_1_R" 60
+  62 "finger_index_2_R" 61
+  63 "finger_thumb_0_R" 50
+  64 "finger_thumb_1_R" 63
+  65 "finger_thumb_2_R" 64
+  66 "finger_ring_meta_R" 50
+  67 "finger_ring_0_R" 66
+  68 "finger_ring_1_R" 67
+  69 "finger_ring_2_R" 68
+  70 "weapon_hand_R" 50
+  71 "arm_lower_R_TWIST" 49
+  72 "arm_lower_R_TWIST1" 49
+  73 "arm_upper_R_TWIST" 48
+  74 "arm_upper_R_TWIST1" 48
+  75 "leg_upper_L" 11
+  76 "leg_lower_L" 75
+  77 "ankle_L" 76
+  78 "ball_L" 77
+  79 "lfoot_lock" 78
+  80 "leg_upper_L_TWIST" 75
+  81 "leg_upper_L_TWIST1" 75
+  82 "leg_upper_R" 11
+  83 "leg_lower_R" 82
+  84 "ankle_R" 83
+  85 "ball_R" 84
+  86 "rfoot_lock" 85
+  87 "leg_upper_R_TWIST" 82
+  88 "leg_upper_R_TWIST1" 82
+  89 "lean_root" -1
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
+    11 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
+    89 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
+end

@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+	$basetexture "dev/bump"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+	$envmapcontrast 1
+	$envmapsaturation 0.1
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 50
+
+	$nodecal 1
+
+	$colorfix "{250 50 50}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

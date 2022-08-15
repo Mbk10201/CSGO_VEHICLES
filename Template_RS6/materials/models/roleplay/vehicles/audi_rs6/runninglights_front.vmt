@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/audi_rs6/runninglights"
+	$bumpmap "models/roleplay/vehicles/audi_rs6/runninglights_n"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.09 0.09 0.09]"
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 55
+	$phongboost 3.1
+
+	$basetexturetransform "center 1 0.5 scale 1.5 7 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$colorfix "{655 655 655}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

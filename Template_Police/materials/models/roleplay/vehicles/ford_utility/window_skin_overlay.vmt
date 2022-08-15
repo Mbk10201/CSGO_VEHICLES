@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"schmal/fpi_utility/window_overlay"
+	"$nocull" 0
+	"$additive" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$nodecal" "1"
+}

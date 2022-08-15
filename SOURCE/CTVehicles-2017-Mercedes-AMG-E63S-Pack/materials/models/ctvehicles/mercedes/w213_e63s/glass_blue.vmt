@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models\ctvehicles\shared\common/glass_blue"
+	$nocull "1"
+
+"$bumpmap"    "models/ctvehicles/shared/common/glass_n"
+	"$envmap" env_cubemap
+    "$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "4" 
+	"$phongexponent" "50"
+	"$phongfresnelranges" "[4 1 4]"
+	"$surfaceprop" "Glass"
+	"$translucent" 1
+	"$envmapFresnel" "1"
+	"$envmaptint" "[.0927 .0927 .0927]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+		}
+	}
+}

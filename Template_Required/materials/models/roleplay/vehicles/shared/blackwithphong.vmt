@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/black"
+	$bumpmap "dev/bump_normal"
+
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 2
+	$phongboost 0.02
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

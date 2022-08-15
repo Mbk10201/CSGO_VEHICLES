@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/alfaromeo_giuliaqv/bodyparts"
+	"$bumpmap" "models/skyautomotive/alfaromeo_giuliaqv/bodyparts_nm"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.006 .006 .006]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" ".1"
+    	"$envmapfresnel" "1"
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongexponent" 100
+	"$phongfresnelranges" "[1 1 1]" 
+
+	"$colorfix" "{100 100 100}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

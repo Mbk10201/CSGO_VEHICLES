@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "models/roleplay/vehicles/ford_utility/airel_blank"
+
+	$translucent 1
+	$additive 1
+
+	$nodecal 1
+}

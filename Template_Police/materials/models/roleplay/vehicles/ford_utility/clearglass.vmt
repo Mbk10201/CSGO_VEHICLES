@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/ford_utility/glass"
+	$surfaceprop Glass
+
+	$translucent 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$halflambert 1
+	$phongexponent 5
+
+	$rimlight 1
+	$rimlightexponent 2
+	$rimlightboost 0.01
+
+	$nodecal 1
+
+	$rimmask 0
+	hdr?$envmaptint "[ 1 1 1 ]"
+}

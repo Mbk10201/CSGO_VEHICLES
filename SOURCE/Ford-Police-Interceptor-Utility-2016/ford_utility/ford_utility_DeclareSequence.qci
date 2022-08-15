@@ -1,0 +1,18 @@
+// Created by Crowbar 0.71
+
+$declaresequence "idle"
+$declaresequence "turn"
+$declaresequence "suspension"
+$declaresequence "spin"
+$declaresequence "enter1"
+$declaresequence "exit1"
+$declaresequence "speedometer"
+$declaresequence "turning"
+$declaresequence "wheel_fl_suspension"
+$declaresequence "wheel_fl_spin"
+$declaresequence "wheel_fr_suspension"
+$declaresequence "wheel_fr_spin"
+$declaresequence "wheel_rl_suspension"
+$declaresequence "wheel_rl_spin"
+$declaresequence "wheel_rr_suspension"
+$declaresequence "wheel_rr_spin"

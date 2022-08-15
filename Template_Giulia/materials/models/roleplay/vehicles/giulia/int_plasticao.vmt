@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/giulia/plasticao"
+	"$bumpmap" "models/roleplay/vehicles/shared/skin_nm"
+
+  	"$surfaceprop" "metal"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1" 
+	"$phongboost" ".2" 
+	"$phongexponent" 12
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{40 40 40}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

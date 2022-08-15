@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\roleplay\vehicles\giulia\alcnt"
+	"$bumpmap"    "models\roleplay\vehicles\giulia\alcnt_nm"
+
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phongexponenttexture" "models\roleplay\vehicles\giulia\alcnt"
+	"$phong" "1" 
+	"$phongboost" "0.5" 
+	//"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 5
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".2"
+	"$rimmask" "1"
+
+	"$detail" "models\roleplay\vehicles\giulia\alcnt"
+	"$detailscale" "0.6"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "0"
+
+	"$colorfix" "{250 250 250}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

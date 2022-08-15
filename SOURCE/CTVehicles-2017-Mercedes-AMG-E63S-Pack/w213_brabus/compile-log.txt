@@ -1,0 +1,31 @@
+// Created by Crowbar 0.71
+
+  Compiling "w213_brabus.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\ctvehicles-2017-mercedes-amg-e63s-pack\w213_brabus\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "w213_brabus.qc"
+      Building binary model files...
+      Working on "w213_brabus.qc"
+      SMD MODEL 1.smd
+      SMD MODEL steering_wheel.smd
+      SMD MODEL 2.smd
+      SMD MODEL speedo.smd
+      SMD MODEL 3.smd
+      SMD MODEL 4.smd
+      SMD MODEL 5.smd
+      SMD MODEL 6.smd
+      SMD MODEL 7.smd
+      SMD MODEL 8.smd
+      SMD MODEL 9.smd
+      SMD MODEL 10.smd
+      SMD MODEL 11.smd
+      SMD MODEL no_tint.smd
+      SMD MODEL tinted.smd
+      SMD MODEL super_tint.smd
+      SMD MODEL brabus_stuff.smd
+      SMD MODEL brabus2.smd
+      ERROR: Too many materials used, max 32
+      ERROR: Aborted Processing on 'ctvehicles/mercedes/w213_brabus.mdl'
+      WARNING: Leaking 1 elements
+  ... Compiling "w213_brabus.qc" finished. Check above for any errors.

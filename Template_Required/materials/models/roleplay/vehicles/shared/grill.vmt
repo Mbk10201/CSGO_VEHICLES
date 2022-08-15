@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/grill"
+	$bumpmap "models/roleplay/vehicles/shared/grill_nrm"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.15 0.15 0.15]"
+
+	$phong 1
+	$phongfresnelranges "[0.34 0.4 1]"
+	$halflambert 1
+	$phongexponent 85
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

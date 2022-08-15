@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/actros/front_stock"
+	$bumpmap "models/roleplay/vehicles/actros/front_stock_n"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.26 0.26 0.26]"
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 10
+
+	$nodecal 1
+
+	$colorfix "{180 180 180}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

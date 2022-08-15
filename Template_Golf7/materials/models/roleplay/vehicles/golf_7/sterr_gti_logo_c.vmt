@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/golf_7/sterr_gti_logo_c"
+	$bumpmap "models/roleplay/vehicles/golf_7/sterr_gti_logo_nm"
+}

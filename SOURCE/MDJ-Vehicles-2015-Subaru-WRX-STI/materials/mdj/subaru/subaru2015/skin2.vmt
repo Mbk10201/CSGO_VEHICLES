@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "mdj/subaru/subaru2015/skin2"
+	"$bumpmap" "mdj/shared/skin_nm"
+    $nocull 0
+    $envmap "env_cubemap"
+    $envmaptint "[0.25 0.25 0.25]"
+    $envmapfresnel "1"
+   "$normalmapalphaenvmapmask" "1"
+    $phong "1"
+    $phongexponent "37"
+    $phongboost ".2"
+    $phongfresnelranges "[.5 .75 .75]"
+}

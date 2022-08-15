@@ -1,0 +1,35 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/bmw_m5f90/grill_a"
+	"$bumpmap" "models/skyautomotive/bmw_m5f90/grill_a_n"
+	
+  	"$surfaceprop" "metal"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+
+	"$alphatest" "1"
+	"$alphatestreference" "0.1"
+	"$allowalphatocoverage" "1"
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.02 .02 .02]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" "1"
+    	"$envmapfresnel" "1"
+
+
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.5" 
+	"$phongexponent" 25
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{45 45 45}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

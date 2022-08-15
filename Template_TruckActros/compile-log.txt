@@ -1,0 +1,169 @@
+// Created by Crowbar 0.71
+
+  Compiling "actros.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\template_truckactros\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "actros.qc"
+      Building binary model files...
+      Working on "actros.qc"
+      SMD MODEL body.smd
+      SMD MODEL body8.smd
+      SMD MODEL body9.smd
+      SMD MODEL body10.smd
+      SMD MODEL body11.smd
+      SMD MODEL doorhandles_chrome.smd
+      SMD MODEL f7.smd
+      SMD MODEL frontmirror.smd
+      SMD MODEL mirrors_skin.smd
+      SMD MODEL r1.smd
+      SMD MODEL sidemirror.smd
+      SMD MODEL sideplate.smd
+      SMD MODEL steering_wheel.smd
+      SMD MODEL phy.smd
+      SMD MODEL sequences.smd
+      Processing LOD for material: main
+      Processing LOD for material: main_matte
+      Processing LOD for material: main_matte
+      Processing LOD for material: dashboard
+      Processing LOD for material: glass
+      Processing LOD for material: leather_perforated
+      Processing LOD for material: dashboard
+      Processing LOD for material: chrome2
+      Processing LOD for material: curtain
+      Processing LOD for material: details_transparent
+      Processing LOD for material: black
+      Processing LOD for material: leather_perforated
+      Processing LOD for material: black
+      Processing LOD for material: plastic_002
+      Processing LOD for material: plastic_003
+      Processing LOD for material: plastic_004
+      Processing LOD for material: seat_002
+      Processing LOD for material: glass
+      Processing LOD for material: plastic_003
+      Processing LOD for material: floor_001
+      Processing LOD for material: details
+      Processing LOD for material: bed01
+      Processing LOD for material: chrome
+      Processing LOD for material: dashboard_transparent
+      Processing LOD for material: doorstep_1
+      Processing LOD for material: front_1
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: details_transparent
+      Processing LOD for material: black
+      Processing LOD for material: front_stock
+      Processing LOD for material: black
+      Processing LOD for material: chrome
+      Processing LOD for material: skin
+      Processing LOD for material: front_stock
+      Processing LOD for material: chrome2
+      Processing LOD for material: black
+      Processing LOD for material: main
+      Processing LOD for material: skin
+      Processing LOD for material: leather_perforated
+      Processing LOD for material: chrome2
+      Processing LOD for material: details_transparent
+      Processing LOD for material: black
+      Processing LOD for material: plastic_002
+      Model has 9 convex sub-parts
+      Collision model completed.
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/actros_6x6.mdl:
+      Loading preexisting model: E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/actros_6x6.mdl
+         Found 15 preexisting sequences.
+      bones         5964 bytes (18)
+         animation       x       y       ips    angle
+      animations    5172 bytes (29 anims) (30 frames) [0:01]
+      Building sequence index remapping table...
+      No re-ordering required.
+      sequences     4116 bytes (15 seq) 
+      hdr@055BF3D4=723A0200
+      ik/pose       2312 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      hdr@055BF3D4=723A0200
+      textures      2468 bytes
+      keyvalues      104 bytes
+      hdr@055BF3CC=723A0398
+      hdr@055BF3D4=723A0200
+      bone transforms     2512 bytes
+      bone flex driver       0 bytes
+      bodygroup presets       0 bytes
+      Collision model volume 1342350.63 in^3
+      collision        0 bytes
+      total        29292
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/actros_6x6.vvd:
+      vertices   1048464 bytes (21843 vertices)
+      vertices    998880 bytes (20810 vertices)
+      vertices   1039584 bytes (21658 vertices)
+      vertices    996288 bytes (20756 vertices)
+      vertices    803136 bytes (16732 vertices)
+      vertices     49776 bytes (1037 vertices)
+      vertices    203616 bytes (4242 vertices)
+      vertices     34224 bytes (713 vertices)
+      vertices     36192 bytes (754 vertices)
+      vertices    407232 bytes (8484 vertices)
+      vertices     19584 bytes (408 vertices)
+      vertices    110352 bytes (2299 vertices)
+      vertices    110640 bytes (2305 vertices)
+      tangents    349488 bytes (21843 vertices)
+      tangents    332960 bytes (20810 vertices)
+      tangents    346528 bytes (21658 vertices)
+      tangents    332096 bytes (20756 vertices)
+      tangents    267712 bytes (16732 vertices)
+      tangents     16592 bytes (1037 vertices)
+      tangents     67872 bytes (4242 vertices)
+      tangents     11408 bytes (713 vertices)
+      tangents     12064 bytes (754 vertices)
+      tangents    135744 bytes (8484 vertices)
+      tangents      6528 bytes (408 vertices)
+      tangents     36784 bytes (2299 vertices)
+      tangents     36880 bytes (2305 vertices)
+      total      7810688 bytes
+      ---------------------
+      Generating optimized mesh "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/actros_6x6.dx90.vtx":
+      body parts:       104 bytes
+      models:           260 bytes
+      model LODs:       156 bytes
+      meshes:           396 bytes
+      strip groups:    1452 bytes
+      strips:          1540 bytes
+      verts:        1098369 bytes
+      indices:       740394 bytes
+      bone changes:     392 bytes
+      everything:   1842943 bytes
+      WARNING: ConVarRef r_staticlight_streams doesn't point to an existing ConVar
+      WARNING: ConVarRef r_staticlight_streams_indirect_only doesn't point to an existing ConVar
+      
+      Completed "actros.qc"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\actros_6x6.dx90.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_TruckActros\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\actros_6x6.mdl" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_TruckActros\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\actros_6x6.phy" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_TruckActros\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\actros_6x6.vvd" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_TruckActros\models\roleplay\vehicles"
+  ... Compiling "actros.qc" finished. Check above for any errors.

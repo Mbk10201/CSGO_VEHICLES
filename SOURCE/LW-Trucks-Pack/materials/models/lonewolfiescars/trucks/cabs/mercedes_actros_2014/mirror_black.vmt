@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/mercedes_actros_2014/mirror_black"
+	"$bumpmap" "models/LoneWolfiesCars/trucks/shared/skin_nm"
+	"$nodecal" "1"
+	"$nocull" "1"
+	"$phong" "1" 
+	"$phongboost" "0.05" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{150 150 150}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

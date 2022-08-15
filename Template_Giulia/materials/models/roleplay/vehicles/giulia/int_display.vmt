@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/giulia/INT_display"
+	"$bumpmap" "models/roleplay/vehicles/shared/skin_nm"
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongboost" "0.04" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+
+	"$alphatest" "1"
+	"$alphatestreference" "0.5"
+	"$allowalphatocoverage" "1"
+
+	"$detail" "models/roleplay/vehicles/giulia/INT_display"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+
+	"$colorfix" "{100 100 100}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

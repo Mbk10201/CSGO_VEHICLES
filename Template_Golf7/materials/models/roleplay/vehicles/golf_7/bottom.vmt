@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/golf_7/bottom"
+	$bumpmap "models/roleplay/vehicles/golf_7/bottom_nrm"
+}

@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ctvehicles/shared/common/chrome"
+	"$bumpmap"    "models/ctvehicles/shared/common/skin_n"
+    "$lightwarptexture" "models/ctvehicles/shared/common/chromefix"
+"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[2.5 0.7 0.7]" 
+	"$phongexponent" 140
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.7 0.7 0.7]"
+	"$halflambert" 1
+	"$colorfix" "{150 150 150}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

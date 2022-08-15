@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/curtain"
+	"$bumpmap"    "models/LoneWolfiesCars/trucks/shared/skin_nm"	
+	"$nocull" "1"
+	"$phong" "1" 
+	"$nodecal" "1"
+	"$phongboost" "3" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 10
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	$detail "models/LoneWolfiesCars/trucks/shared/detail_fabric"
+	$detailscale 2
+	$detailblendfactor 1
+	$detailblendmode 0
+}

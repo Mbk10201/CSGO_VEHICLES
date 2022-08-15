@@ -1,0 +1,27 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/mercedes_actross/skin3"
+	"$bumpmap" "models/LoneWolfiesCars/trucks/shared/skin_nm"
+
+	"$nodecal" "1"
+
+	"$phong" 1
+	"$phongexponent" 5
+	"$phongboost"	0.2
+	"$phongfresnelranges" "[1 1 1]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

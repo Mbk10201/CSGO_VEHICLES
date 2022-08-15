@@ -1,0 +1,39 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/blackshiny"
+	$bumpmap "dev/bump_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+
+	$phong 1
+	$phongfresnelranges "[0.3 0.5 1]"
+	$phongtint "[0.10 0.10 0.10]"
+	$halflambert 1
+	$phongexponent 10
+	$phongboost 7
+
+	$rimlight 1
+	$rimlightexponent 1
+	$rimlightboost 0.3
+
+	$basetexturetransform "center 0.2 0.2 scale 60 60 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$color "[0 0 0]"
+	$blendtintbybasealpha 1
+
+	$colorfix "{255 255 255}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

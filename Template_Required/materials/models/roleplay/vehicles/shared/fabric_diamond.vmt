@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/shared/fabric_diamond"
+	"$bumpmap"    "models/roleplay/vehicles/shared/fabric_diamond_nm"
+	"$blendtintbybasealpha" "1"
+
+}

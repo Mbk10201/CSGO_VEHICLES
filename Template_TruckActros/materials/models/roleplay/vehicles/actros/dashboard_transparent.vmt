@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/actros/dashboard"
+	$bumpmap "models/roleplay/vehicles/shared/skin_nm"
+
+	$detail "models/roleplay/vehicles/actros/dashboard_emissive"
+	$detailblendmode 1
+	$detailscale 1
+	$detailblendfactor 16
+
+	$alphatest 1
+
+	$nodecal 1
+
+	$allowalphatocoverage 1
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

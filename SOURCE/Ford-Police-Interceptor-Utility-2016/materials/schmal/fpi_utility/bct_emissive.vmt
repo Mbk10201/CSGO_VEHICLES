@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"schmal/fpi_utility/bct_emissive"
+	"$selfillum" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$nodecal" "1"
+}
+

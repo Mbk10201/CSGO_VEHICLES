@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/mercedes_actros_2014/plastic_3"
+	"$bumpmap"    "models/LoneWolfiesCars/trucks/shared/skin_nm"
+	"$phong" "1" 
+	"$nodecal" "1"
+	"$phongboost" "0.1" 
+	"$phongfresnelranges" "[.3 .3 1]" 
+	"$phongexponent" 1
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$colorfix" "{175 175 175}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

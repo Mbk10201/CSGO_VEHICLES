@@ -1,0 +1,38 @@
+"VertexLitGeneric"
+{
+"$basetexturetransform" "center .5 .5 scale 700 700 rotate 0 translate 0 0"
+
+
+"$basetexture" "models/crskautos/shared/common/kraska_hd"
+	"$bumpmap" "models/crskautos/shared/common/kraska_km"
+	"$nodecal" "1"
+	"$phong" "1"
+	"$phongexponent" "2.2"
+	"$phongboost"	"3.3"
+
+	"$phongfresnelranges" "[.4 1.1 1.2]"
+	
+	"$phongfix" "{10 10 10}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$color
+			resultVar	$phongtint
+		}
+		Add
+		{
+			srcVar1 $phongfix
+			srcVar2 $phongtint
+			resultVar $phongtint
+		}
+	}
+
+}
+
+
+
+
+
+

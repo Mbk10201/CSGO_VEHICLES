@@ -1,0 +1,26 @@
+UnlitGeneric
+{
+	$basetexture "models/roleplay/vehicles/audi_rs6/salona2012_tr"
+	$bumpmap "models/roleplay/vehicles/shared/skin_nm"
+
+	$alphatest 1
+
+	$phong 1
+	$phongexponent 25
+	$phongamount "[1 1 1 1]"
+
+	$nodecal 1
+
+	$allowalphatocoverage 1
+	$colorfix "{255 255 255}"
+	$phongfix "{22 22 22}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/golf_7/nodamage"
+	$bumpmap "dev/bump_normal"
+
+	$alphatest 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$halflambert 1
+	$phongexponent 50
+	$phongboost 0.2
+
+	$nodecal 1
+
+	$allowalphatocoverage 1
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

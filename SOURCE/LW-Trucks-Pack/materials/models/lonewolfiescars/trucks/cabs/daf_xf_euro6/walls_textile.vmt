@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 60 60 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/walls_textile"
+	"$bumpmap"    "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/walls_textile_bump"
+	"$phong" "1" 
+	"$nodecal" "1"
+	"$phongboost" "0.5" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 10
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$colorfix" "{200 200 200}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

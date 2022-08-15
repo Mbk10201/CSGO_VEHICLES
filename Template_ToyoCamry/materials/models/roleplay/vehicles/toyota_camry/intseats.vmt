@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/toyota_camry/leatherseatsurface"
+	$bumpmap "models/roleplay/vehicles/toyota_camry/seats_nm"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0 0 0]"
+	$envmapcontrast 1
+	$envmapsaturation 0.1
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 12
+	$phongboost 0.02
+
+	$nodecal 1
+
+	$colorfix "{140 30 30}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

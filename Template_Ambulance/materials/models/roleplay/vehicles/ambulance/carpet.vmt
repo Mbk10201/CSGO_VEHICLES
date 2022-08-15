@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/ambulance/carpet"
+	$bumpmap "models/roleplay/vehicles/shared/carpet_bump"
+
+	$phong 1
+	$phongfresnelranges "[0.25 1.1 1]"
+	$phongexponent 8
+	$phongboost 0.1
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

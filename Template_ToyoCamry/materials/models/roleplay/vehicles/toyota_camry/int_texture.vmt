@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/toyota_camry/interior"
+	$bumpmap "models/roleplay/vehicles/toyota_camry/interior_nm"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0 0 0]"
+	$envmapcontrast 1
+	$envmapsaturation 0.1
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 50
+	$phongboost 0.5
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

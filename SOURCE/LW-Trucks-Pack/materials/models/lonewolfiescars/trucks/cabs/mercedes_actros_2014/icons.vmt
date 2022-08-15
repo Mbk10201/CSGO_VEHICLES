@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/mercedes_actros_2014/icons"
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+	"$bumpmap" "models/lonewolfiescars/trucks/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.04" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

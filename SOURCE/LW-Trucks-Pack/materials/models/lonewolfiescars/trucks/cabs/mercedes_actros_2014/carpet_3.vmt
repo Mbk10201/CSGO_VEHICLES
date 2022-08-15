@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/mercedes_actros_2014/carpet_3"
+	"$bumpmap"    "models/LoneWolfiesCars/trucks/cabs/mercedes_actros_2014/floor_bump"
+	"$normalmapalphaenvmapmask" 1
+
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongboost" "0" 
+	"$phongfresnelranges" "[0.05 0.5 1]" 
+	"$phongexponent" 3
+
+
+	"$colorfix" "{110 110 110}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

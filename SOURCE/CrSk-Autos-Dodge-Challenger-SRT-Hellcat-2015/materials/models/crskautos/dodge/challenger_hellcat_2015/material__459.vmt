@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/crskautos/shared/common/hrom"
+	"$bumpmap"    "models/crskautos/shared/common/kraska_km"
+    "$lightwarptexture" "models/crskautos/shared/common/hromfix"
+	"$nodecal" "1"
+    "$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "3" 
+    "$phongfresnelranges" "[.3 .51 .25]" 
+	"$phongexponent" 110
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1.5 1.5 1.5]"
+	"$colorfix" "{140 140 140}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,218 @@
+// Created by Crowbar 0.71
+
+  Compiling "toyota_camry.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\template_toyocamry\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "toyota_camry.qc"
+      Building binary model files...
+      Working on "toyota_camry.qc"
+      SMD MODEL body.smd
+      SMD MODEL body2.smd
+      SMD MODEL body3.smd
+      SMD MODEL body4.smd
+      SMD MODEL body5.smd
+      SMD MODEL body6.smd
+      SMD MODEL body7.smd
+      SMD MODEL body9.smd
+      SMD MODEL body10.smd
+      SMD MODEL body11.smd
+      SMD MODEL black.smd
+      SMD MODEL steering_wheel.smd
+      SMD MODEL wheel_body.smd
+      SMD MODEL vossen_01.smd
+      SMD MODEL vossen_02.smd
+      SMD MODEL vossen_03.smd
+      SMD MODEL vorsteiner_01.smd
+      SMD MODEL vorsteiner_02.smd
+      SMD MODEL vorsteiner_03.smd
+      SMD MODEL phy.smd
+      SMD MODEL sequences.smd
+      Processing LOD for material: skin
+      Processing LOD for material: skin
+      Processing LOD for material: blackwithphong
+      Processing LOD for material: blackwithphong
+      Processing LOD for material: blackwithphong
+      Processing LOD for material: blackglass
+      Processing LOD for material: blackglass
+      Processing LOD for material: blackglass
+      Processing LOD for material: chrome2
+      Processing LOD for material: satin
+      Processing LOD for material: glass
+      Processing LOD for material: int_texture
+      Processing LOD for material: plastic_red
+      Processing LOD for material: leather_material
+      Processing LOD for material: leather_material
+      Processing LOD for material: black
+      Processing LOD for material: int_nav
+      Processing LOD for material: leather_red
+      Processing LOD for material: ac_carpet
+      Processing LOD for material: chrome2
+      Processing LOD for material: ac_carpet
+      Processing LOD for material: fabric_roof
+      Processing LOD for material: intseats
+      Processing LOD for material: red_reflective
+      Processing LOD for material: reflectors
+      Processing LOD for material: glass_red
+      Processing LOD for material: int_trim
+      Processing LOD for material: skin
+      Processing LOD for material: blackwithphong
+      Processing LOD for material: chrome2
+      Processing LOD for material: satin
+      Processing LOD for material: leather_material
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: tire
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: blackshiny
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: blackshiny
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: blackshiny
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: blackshiny
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: blackshiny
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Processing LOD for material: blackshiny
+      Model has 1 convex sub-parts
+      Collision model completed.
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/toyota_camry.mdl:
+      Loading preexisting model: E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/toyota_camry.mdl
+         Found 15 preexisting sequences.
+      bones         6456 bytes (19)
+         animation       x       y       ips    angle
+      animations    5288 bytes (29 anims) (30 frames) [0:01]
+      Building sequence index remapping table...
+      No re-ordering required.
+      sequences     4156 bytes (15 seq) 
+      hdr@051BF63C=70470200
+      ik/pose       3512 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      hdr@051BF63C=70470200
+      textures      2468 bytes
+      keyvalues      108 bytes
+      hdr@051BF634=70470398
+      hdr@051BF63C=70470200
+      bone transforms     2648 bytes
+      bone flex driver       0 bytes
+      bodygroup presets       0 bytes
+      Collision model volume 746916.00 in^3
+      collision        0 bytes
+      total        33056
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/toyota_camry.vvd:
+      vertices   1048464 bytes (21843 vertices)
+      vertices   1048464 bytes (21843 vertices)
+      vertices   1048512 bytes (21844 vertices)
+      vertices    946992 bytes (19729 vertices)
+      vertices   1048464 bytes (21843 vertices)
+      vertices    330192 bytes (6879 vertices)
+      vertices    433008 bytes (9021 vertices)
+      vertices    959280 bytes (19985 vertices)
+      vertices    976032 bytes (20334 vertices)
+      vertices    914736 bytes (19057 vertices)
+      vertices    120624 bytes (2513 vertices)
+      vertices    343776 bytes (7162 vertices)
+      vertices    282768 bytes (5891 vertices)
+      vertices    373440 bytes (7780 vertices)
+      vertices    579552 bytes (12074 vertices)
+      vertices    473856 bytes (9872 vertices)
+      vertices    501744 bytes (10453 vertices)
+      vertices    804528 bytes (16761 vertices)
+      vertices    760080 bytes (15835 vertices)
+      tangents    349488 bytes (21843 vertices)
+      tangents    349488 bytes (21843 vertices)
+      tangents    349504 bytes (21844 vertices)
+      tangents    315664 bytes (19729 vertices)
+      tangents    349488 bytes (21843 vertices)
+      tangents    110064 bytes (6879 vertices)
+      tangents    144336 bytes (9021 vertices)
+      tangents    319760 bytes (19985 vertices)
+      tangents    325344 bytes (20334 vertices)
+      tangents    304912 bytes (19057 vertices)
+      tangents     40208 bytes (2513 vertices)
+      tangents    114592 bytes (7162 vertices)
+      tangents     94256 bytes (5891 vertices)
+      tangents    124480 bytes (7780 vertices)
+      tangents    193184 bytes (12074 vertices)
+      tangents    157952 bytes (9872 vertices)
+      tangents    167248 bytes (10453 vertices)
+      tangents    268176 bytes (16761 vertices)
+      tangents    253360 bytes (15835 vertices)
+      total      17326080 bytes
+      ---------------------
+      Generating optimized mesh "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/toyota_camry.dx90.vtx":
+      body parts:       112 bytes
+      models:           420 bytes
+      model LODs:       252 bytes
+      meshes:           531 bytes
+      strip groups:    1947 bytes
+      strips:          2065 bytes
+      verts:        2436471 bytes
+      indices:      1811400 bytes
+      bone changes:    1160 bytes
+      everything:   4254142 bytes
+      WARNING: ConVarRef r_staticlight_streams doesn't point to an existing ConVar
+      WARNING: ConVarRef r_staticlight_streams_indirect_only doesn't point to an existing ConVar
+      
+      Completed "toyota_camry.qc"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\toyota_camry.dx90.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_ToyoCamry\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\toyota_camry.mdl" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_ToyoCamry\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\toyota_camry.phy" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_ToyoCamry\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\toyota_camry.vvd" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_ToyoCamry\models\roleplay\vehicles"
+  ... Compiling "toyota_camry.qc" finished. Check above for any errors.

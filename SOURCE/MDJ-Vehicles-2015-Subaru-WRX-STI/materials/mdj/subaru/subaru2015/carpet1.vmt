@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "mdj/subaru/subaru2015/carpet1"
+	"$bumpmap" "mdj/subaru/subaru2015/carpet_nm"
+ "$translucent" "0"
+	"$nocull" "1"
+"$nodecal" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[.3 1 1]"
+	"$carpenisenabled" "0"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

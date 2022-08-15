@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/actros/curtain"
+	$bumpmap "dev/bump_normal"
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 10
+	$phongboost 3
+
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0.1
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "schmal/fpi_utility/center_console"
+	"$bumpmap" "schmal/shared/flat"
+	$nocull "1"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" 1
+	"$phongfresnelranges" "[0 1 1]" 
+	"$phongexponent" 2
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$phongfix" "{1 1 1}"
+   	$surfaceprop "metal"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

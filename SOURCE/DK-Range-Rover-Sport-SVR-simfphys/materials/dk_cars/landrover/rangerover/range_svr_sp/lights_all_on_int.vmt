@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "dk_cars/landrover/rangerover/range_svr_sp/lights_all_on_int"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 150
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+	"$halflambert" 1
+	"$colorfix" "{255 255 255}"
+	"$selfillum" 1
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "schmal/fpi_utility/trim_dark"
+	"$bumpmap"	"schmal/shared/flat"
+	 $nocull "1"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+   	 $phongexponent "0"
+    	$phongboost "10"
+    	$phongfresnelranges "[ 1 1 1]"
+	"$rimlight" "10"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$phongfix" "{1 1 1}"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$nodecal" "1"
+}

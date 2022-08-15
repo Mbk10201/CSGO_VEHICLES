@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/shared/chrome"
+	"$bumpmap" "models/skyautomotive/shared/skin_nm"
+	"$normalmapalphaenvmapmask" 1
+	"$blendtintbybasealpha" "1"
+	"$nocull" "1"
+	"$nodecal" "1"
+   	$surfaceprop "metal"
+
+    	$envmap "env_cubemap"
+    	$envmaptint "[.2 .2 .2]"
+    	$envmapcontrast "1"
+    	$envmapsaturation "1"
+    	$envmapfresnel "1"
+
+    	$phong "1"
+    	$phongexponent "20"
+    	$phongboost "10"
+    	$phongfresnelranges "[ 1 .5 .3]"
+
+}

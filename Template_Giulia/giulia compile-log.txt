@@ -1,0 +1,20 @@
+// Created by Crowbar 0.71
+
+  Compiling "giulia.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\template_giulia\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "giulia.qc"
+      Building binary model files...
+      Working on "giulia.qc"
+      SMD MODEL body.smd
+      SMD MODEL body3.smd
+      SMD MODEL body4.smd
+      SMD MODEL body5.smd
+      SMD MODEL body6.smd
+      SMD MODEL body7.smd
+      SMD MODEL body8.smd
+      ERROR: Too many materials used, max 32
+      ERROR: Aborted Processing on 'roleplay/vehicles/giulia'
+      WARNING: Leaking 1 elements
+  ... Compiling "giulia.qc" finished. Check above for any errors.

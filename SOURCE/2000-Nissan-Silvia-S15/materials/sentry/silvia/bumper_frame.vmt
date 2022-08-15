@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/silvia/bumper_frame"
+	"$bumpmap" "sentry/silvia/bumper_frame_bump"
+    $surfaceprop "metal"
+    $phong "1"
+    $phongexponent "27"
+    $phongboost "5"
+    $phongfresnelranges "[.05 .3 1]"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

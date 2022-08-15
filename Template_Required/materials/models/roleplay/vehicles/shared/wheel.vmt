@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/wheel"
+	$bumpmap "models/roleplay/vehicles/shared/wheel_bump"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.16 0.16 0.16]"
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 10
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+UnlitGeneric
+{
+	$basetexture "models/roleplay/vehicles/mas_ghibli/interior_emissive"
+
+	$alphatest 1
+
+	$nodecal 1
+
+	$allowalphatocoverage 1
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,406 @@
+// Created by Crowbar 0.71
+
+  Compiling "silvia.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\template_silvia\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "silvia.qc"
+      Building binary model files...
+      Working on "silvia.qc"
+      SMD MODEL ref.smd
+      SMD MODEL int.smd
+      SMD MODEL int2.smd
+      SMD MODEL sw1.smd
+      SMD MODEL sw2.smd
+      SMD MODEL plates.smd
+      SMD MODEL fa.smd
+      SMD MODEL fb.smd
+      SMD MODEL fc.smd
+      SMD MODEL fd.smd
+      SMD MODEL ra.smd
+      SMD MODEL rb.smd
+      SMD MODEL rc.smd
+      SMD MODEL rd.smd
+      SMD MODEL re.smd
+      SMD MODEL rf.smd
+      SMD MODEL wa.smd
+      SMD MODEL wb.smd
+      SMD MODEL wc.smd
+      SMD MODEL wd.smd
+      SMD MODEL sa.smd
+      SMD MODEL sb.smd
+      SMD MODEL sc.smd
+      SMD MODEL sd.smd
+      SMD MODEL e1.smd
+      SMD MODEL e2.smd
+      SMD MODEL e3.smd
+      SMD MODEL e4.smd
+      SMD MODEL lights1.smd
+      SMD MODEL lights2.smd
+      SMD MODEL speedometer.smd
+      SMD MODEL tachometer.smd
+      SMD MODEL rubber.smd
+      SMD MODEL vossen_01.smd
+      SMD MODEL vossen_02.smd
+      SMD MODEL vossen_03.smd
+      SMD MODEL vorsteiner_01.smd
+      SMD MODEL vorsteiner_02.smd
+      SMD MODEL vorsteiner_03.smd
+      SMD MODEL vorsteiner_04.smd
+      SMD MODEL vorsteiner_05.smd
+      SMD MODEL caliper.smd
+      SMD MODEL brake.smd
+      SMD MODEL phy.smd
+      SMD MODEL sequences.smd
+      Processing LOD for material: undercarriage
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: chrome
+      Processing LOD for material: nodamage
+      Processing LOD for material: lights
+      Processing LOD for material: glass
+      Processing LOD for material: bumper_frame
+      Processing LOD for material: black
+      Processing LOD for material: chrome
+      Processing LOD for material: glass
+      Processing LOD for material: interior_lod0
+      Processing LOD for material: interior_lod0_badges
+      Processing LOD for material: interior_lod0
+      Processing LOD for material: interior_lod0_badges
+      Processing LOD for material: interior_lod0
+      Processing LOD for material: interior_lod0_badges
+      Processing LOD for material: leather
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: skin
+      Processing LOD for material: 180sx_dish_steering
+      Processing LOD for material: nodamage
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: nodamage
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: nodamage
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: nodamage
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: nodamage
+      Processing LOD for material: grille1
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: nodamage
+      Processing LOD for material: skin
+      Processing LOD for material: lights
+      Processing LOD for material: glass
+      Processing LOD for material: skin
+      Processing LOD for material: skin
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: skin
+      Processing LOD for material: nodamage
+      Processing LOD for material: chrome
+      Processing LOD for material: chrome2
+      Processing LOD for material: chrome
+      Processing LOD for material: chrome2
+      Processing LOD for material: chrome
+      Processing LOD for material: chrome2
+      Processing LOD for material: chrome
+      Processing LOD for material: chrome2
+      Processing LOD for material: glass
+      Processing LOD for material: purple
+      Processing LOD for material: interior_lod0
+      Processing LOD for material: interior_lod0
+      Processing LOD for material: tire
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      WARNING: unknown bone reference 'speedo' in weightlist 'speedo'
+      WARNING: unknown bone reference 'tachometer' in weightlist 'speedo'
+      Model has 5 convex sub-parts
+      Collision model completed.
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/silvia.mdl:
+      Loading preexisting model: E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/silvia.mdl
+         Found 16 preexisting sequences.
+      bones         5932 bytes (17)
+         animation       x       y       ips    angle
+      animations    8084 bytes (55 anims) (56 frames) [0:01]
+      Building sequence index remapping table...
+      No re-ordering required.
+      sequences     4512 bytes (16 seq) 
+      hdr@00F7F704=72FF0200
+      ik/pose       8168 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      hdr@00F7F704=72FF0200
+      textures      2648 bytes
+      keyvalues      100 bytes
+      hdr@00F7F6FC=72FF0398
+      hdr@00F7F704=72FF0200
+      bone transforms     2376 bytes
+      bone flex driver       0 bytes
+      bodygroup presets       0 bytes
+      Collision model volume 631362.13 in^3
+      collision        0 bytes
+      total        46316
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/silvia.vvd:
+      vertices    641136 bytes (13357 vertices)
+      vertices    758640 bytes (15805 vertices)
+      vertices    543456 bytes (11322 vertices)
+      vertices    190512 bytes (3969 vertices)
+      vertices     86496 bytes (1802 vertices)
+      vertices    118752 bytes (2474 vertices)
+      vertices     58512 bytes (1219 vertices)
+      vertices     69552 bytes (1449 vertices)
+      vertices     58080 bytes (1210 vertices)
+      vertices     50832 bytes (1059 vertices)
+      vertices     48000 bytes (1000 vertices)
+      vertices     52896 bytes (1102 vertices)
+      vertices     43968 bytes (916 vertices)
+      vertices     44496 bytes (927 vertices)
+      vertices     52272 bytes (1089 vertices)
+      vertices     50016 bytes (1042 vertices)
+      vertices     27648 bytes (576 vertices)
+      vertices     16032 bytes (334 vertices)
+      vertices     18288 bytes (381 vertices)
+      vertices     11472 bytes (239 vertices)
+      vertices     25920 bytes (540 vertices)
+      vertices     21120 bytes (440 vertices)
+      vertices     22080 bytes (460 vertices)
+      vertices     23040 bytes (480 vertices)
+      vertices      7008 bytes (146 vertices)
+      vertices      5856 bytes (122 vertices)
+      vertices      5856 bytes (122 vertices)
+      vertices     31680 bytes (660 vertices)
+      vertices      3648 bytes (76 vertices)
+      vertices      3648 bytes (76 vertices)
+      vertices      5712 bytes (119 vertices)
+      vertices      5712 bytes (119 vertices)
+      vertices    107664 bytes (2243 vertices)
+      vertices    373440 bytes (7780 vertices)
+      vertices    579552 bytes (12074 vertices)
+      vertices    473856 bytes (9872 vertices)
+      vertices    501744 bytes (10453 vertices)
+      vertices    804528 bytes (16761 vertices)
+      vertices    760080 bytes (15835 vertices)
+      vertices    546240 bytes (11380 vertices)
+      vertices    482880 bytes (10060 vertices)
+      vertices     62208 bytes (1296 vertices)
+      vertices    112896 bytes (2352 vertices)
+      tangents    213712 bytes (13357 vertices)
+      tangents    252880 bytes (15805 vertices)
+      tangents    181152 bytes (11322 vertices)
+      tangents     63504 bytes (3969 vertices)
+      tangents     28832 bytes (1802 vertices)
+      tangents     39584 bytes (2474 vertices)
+      tangents     19504 bytes (1219 vertices)
+      tangents     23184 bytes (1449 vertices)
+      tangents     19360 bytes (1210 vertices)
+      tangents     16944 bytes (1059 vertices)
+      tangents     16000 bytes (1000 vertices)
+      tangents     17632 bytes (1102 vertices)
+      tangents     14656 bytes (916 vertices)
+      tangents     14832 bytes (927 vertices)
+      tangents     17424 bytes (1089 vertices)
+      tangents     16672 bytes (1042 vertices)
+      tangents      9216 bytes (576 vertices)
+      tangents      5344 bytes (334 vertices)
+      tangents      6096 bytes (381 vertices)
+      tangents      3824 bytes (239 vertices)
+      tangents      8640 bytes (540 vertices)
+      tangents      7040 bytes (440 vertices)
+      tangents      7360 bytes (460 vertices)
+      tangents      7680 bytes (480 vertices)
+      tangents      2336 bytes (146 vertices)
+      tangents      1952 bytes (122 vertices)
+      tangents      1952 bytes (122 vertices)
+      tangents     10560 bytes (660 vertices)
+      tangents      1216 bytes (76 vertices)
+      tangents      1216 bytes (76 vertices)
+      tangents      1904 bytes (119 vertices)
+      tangents      1904 bytes (119 vertices)
+      tangents     35888 bytes (2243 vertices)
+      tangents    124480 bytes (7780 vertices)
+      tangents    193184 bytes (12074 vertices)
+      tangents    157952 bytes (9872 vertices)
+      tangents    167248 bytes (10453 vertices)
+      tangents    268176 bytes (16761 vertices)
+      tangents    253360 bytes (15835 vertices)
+      tangents    182080 bytes (11380 vertices)
+      tangents    160960 bytes (10060 vertices)
+      tangents     20736 bytes (1296 vertices)
+      tangents     37632 bytes (2352 vertices)
+      total      10543296 bytes
+      ---------------------
+      Generating optimized mesh "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/silvia.dx90.vtx":
+      body parts:       136 bytes
+      models:          1040 bytes
+      model LODs:       624 bytes
+      meshes:           999 bytes
+      strip groups:    3663 bytes
+      strips:          3885 bytes
+      verts:        1482642 bytes
+      indices:      1044342 bytes
+      bone changes:    1760 bytes
+      everything:   2538503 bytes
+      WARNING: ConVarRef r_staticlight_streams doesn't point to an existing ConVar
+      WARNING: ConVarRef r_staticlight_streams_indirect_only doesn't point to an existing ConVar
+      
+      Completed "silvia.qc"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\silvia.dx90.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Silvia\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\silvia.mdl" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Silvia\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\silvia.phy" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Silvia\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\silvia.vvd" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Silvia\models\roleplay\vehicles"
+  ... Compiling "silvia.qc" finished. Check above for any errors.

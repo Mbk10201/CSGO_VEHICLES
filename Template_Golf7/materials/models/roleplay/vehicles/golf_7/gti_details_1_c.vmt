@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/black"
+	$bumpmap "dev/bump_normal"
+}

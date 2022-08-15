@@ -1,0 +1,214 @@
+// Created by Crowbar 0.71
+
+  Compiling "minesr34.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\2002-nissan-mines-skyline-r34\models\sentry\minesr34\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "minesr34.qc"
+      Building binary model files...
+      Working on "minesr34.qc"
+      SMD MODEL ref.smd
+      SMD MODEL int.smd
+      SMD MODEL minesr34_anims\1_corrective_animation.smd
+      SMD MODEL minesr34_anims\2_corrective_animation.smd
+      SMD MODEL minesr34_anims\3_corrective_animation.smd
+      SMD MODEL minesr34_anims\4_corrective_animation.smd
+      SMD MODEL minesr34_anims\5_corrective_animation.smd
+      SMD MODEL minesr34_anims\6_corrective_animation.smd
+      SMD MODEL minesr34_anims\7_corrective_animation.smd
+      SMD MODEL minesr34_anims\8_corrective_animation.smd
+      SMD MODEL minesr34_anims\9_corrective_animation.smd
+      SMD MODEL minesr34_anims\10_corrective_animation.smd
+      SMD MODEL minesr34_anims\11_corrective_animation.smd
+      SMD MODEL minesr34_anims\12_corrective_animation.smd
+      SMD MODEL minesr34_anims\13_corrective_animation.smd
+      SMD MODEL minesr34_anims\14_corrective_animation.smd
+      SMD MODEL minesr34_anims\15_corrective_animation.smd
+      SMD MODEL minesr34_anims\16_corrective_animation.smd
+      SMD MODEL minesr34_anims\17_corrective_animation.smd
+      SMD MODEL minesr34_anims\18_corrective_animation.smd
+      SMD MODEL minesr34_anims\19_corrective_animation.smd
+      SMD MODEL minesr34_anims\20_corrective_animation.smd
+      SMD MODEL minesr34_anims\21_corrective_animation.smd
+      SMD MODEL minesr34_anims\22_corrective_animation.smd
+      SMD MODEL minesr34_anims\23_corrective_animation.smd
+      SMD MODEL minesr34_anims\24_corrective_animation.smd
+      SMD MODEL minesr34_anims\25_corrective_animation.smd
+      SMD MODEL minesr34_anims\turn_left_corrective_animation.smd
+      SMD MODEL minesr34_anims\turn_right_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fl_low_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fl_high_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fl_spin0_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fl_spin120_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fl_spin240_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fr_low_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fr_high_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fr_spin0_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fr_spin120_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_fr_spin240_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rl_low_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rl_high_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rl_spin0_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rl_spin120_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rl_spin240_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rr_low_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rr_high_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rr_spin0_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rr_spin120_corrective_animation.smd
+      SMD MODEL minesr34_anims\wheel_rr_spin240_corrective_animation.smd
+      SMD MODEL minesr34_anims\neutral.smd
+      SMD MODEL minesr34_anims\1.smd
+      SMD MODEL minesr34_anims\2.smd
+      SMD MODEL minesr34_anims\3.smd
+      SMD MODEL minesr34_anims\4.smd
+      SMD MODEL minesr34_anims\5.smd
+      SMD MODEL minesr34_anims\6.smd
+      SMD MODEL minesr34_anims\7.smd
+      SMD MODEL minesr34_anims\8.smd
+      SMD MODEL minesr34_anims\9.smd
+      SMD MODEL minesr34_anims\10.smd
+      SMD MODEL minesr34_anims\11.smd
+      SMD MODEL minesr34_anims\12.smd
+      SMD MODEL minesr34_anims\13.smd
+      SMD MODEL minesr34_anims\14.smd
+      SMD MODEL minesr34_anims\15.smd
+      SMD MODEL minesr34_anims\16.smd
+      SMD MODEL minesr34_anims\17.smd
+      SMD MODEL minesr34_anims\18.smd
+      SMD MODEL minesr34_anims\19.smd
+      SMD MODEL minesr34_anims\20.smd
+      SMD MODEL minesr34_anims\21.smd
+      SMD MODEL minesr34_anims\22.smd
+      SMD MODEL minesr34_anims\23.smd
+      SMD MODEL minesr34_anims\24.smd
+      SMD MODEL minesr34_anims\25.smd
+      SMD MODEL minesr34_anims\26.smd
+      SMD MODEL minesr34_anims\turn_left.smd
+      SMD MODEL minesr34_anims\turn_right.smd
+      SMD MODEL minesr34_anims\wheel_fl_low.smd
+      SMD MODEL minesr34_anims\wheel_fl_high.smd
+      SMD MODEL minesr34_anims\wheel_fl_spin0.smd
+      SMD MODEL minesr34_anims\wheel_fl_spin120.smd
+      SMD MODEL minesr34_anims\wheel_fl_spin240.smd
+      SMD MODEL minesr34_anims\wheel_fr_low.smd
+      SMD MODEL minesr34_anims\wheel_fr_high.smd
+      SMD MODEL minesr34_anims\wheel_fr_spin0.smd
+      SMD MODEL minesr34_anims\wheel_fr_spin120.smd
+      SMD MODEL minesr34_anims\wheel_fr_spin240.smd
+      SMD MODEL minesr34_anims\wheel_rl_low.smd
+      SMD MODEL minesr34_anims\wheel_rl_high.smd
+      SMD MODEL minesr34_anims\wheel_rl_spin0.smd
+      SMD MODEL minesr34_anims\wheel_rl_spin120.smd
+      SMD MODEL minesr34_anims\wheel_rl_spin240.smd
+      SMD MODEL minesr34_anims\wheel_rr_low.smd
+      SMD MODEL minesr34_anims\wheel_rr_high.smd
+      SMD MODEL minesr34_anims\wheel_rr_spin0.smd
+      SMD MODEL minesr34_anims\wheel_rr_spin120.smd
+      SMD MODEL minesr34_anims\wheel_rr_spin240.smd
+      SMD MODEL minesr34_anims\idle.smd
+      SMD MODEL minesr34_anims\turn.smd
+      SMD MODEL minesr34_anims\suspension.smd
+      SMD MODEL minesr34_anims\spin.smd
+      SMD MODEL minesr34_anims\enter1.smd
+      SMD MODEL minesr34_anims\exit1.smd
+      SMD MODEL minesr34_physics.smd
+      WARNING: model has too many verts (41005/21845), cutting into multiple models
+      WARNING: model has too many verts (29680/21845), cutting into multiple models
+      Processing LOD for material: undercarriage
+      Processing LOD for material: black
+      Processing LOD for material: skin0
+      Processing LOD for material: env_cubemap_model
+      Processing LOD for material: nodamage
+      Processing LOD for material: lights
+      Processing LOD for material: carbonFiber
+      Processing LOD for material: grille1
+      Processing LOD for material: glass
+      Processing LOD for material: wheel
+      Processing LOD for material: tireA0
+      Processing LOD for material: lights_lod0
+      Processing LOD for material: mottled
+      Processing LOD for material: interior_LOD0
+      Processing LOD for material: interior_lod0_badges
+      Processing LOD for material: env_cubemap_model
+      Processing LOD for material: glass
+      Processing LOD for material: interior_LOD0
+      Processing LOD for material: interior_lod0_badges
+      Processing LOD for material: leather
+      Processing LOD for material: undercarriage
+      Processing LOD for material: black
+      Processing LOD for material: skin0
+      Processing LOD for material: env_cubemap_model
+      Processing LOD for material: nodamage
+      Processing LOD for material: lights
+      Processing LOD for material: carbonFiber
+      Processing LOD for material: grille1
+      Processing LOD for material: glass
+      Processing LOD for material: wheel
+      Processing LOD for material: tireA0
+      Processing LOD for material: lights_lod0
+      Processing LOD for material: mottled
+      Processing LOD for material: interior_LOD0
+      Processing LOD for material: interior_lod0_badges
+      Model has 9 convex sub-parts
+      Collision model completed.
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/sentry/minesr34.mdl:
+      Loading preexisting model: E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/sentry/minesr34.mdl
+         Found 16 preexisting sequences.
+      bones         4328 bytes (13)
+         animation       x       y       ips    angle
+      animations   22224 bytes (102 anims) (103 frames) [0:03]
+      Building sequence index remapping table...
+      No re-ordering required.
+      sequences     4336 bytes (16 seq) 
+      hdr@0077F1EC=72BA0200
+      ik/pose        692 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      hdr@0077F1EC=72BA0200
+      textures      1608 bytes
+      keyvalues      140 bytes
+      hdr@0077F1E4=72BA0398
+      hdr@0077F1EC=72BA0200
+      bone transforms     1832 bytes
+      bone flex driver       0 bytes
+      bodygroup presets       0 bytes
+      Collision model volume 725028.50 in^3
+      collision        0 bytes
+      total        41956
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/sentry/minesr34.vvd:
+      vertices   1048464 bytes (21843 vertices)
+      vertices     57216 bytes (1192 vertices)
+      vertices    920112 bytes (19169 vertices)
+      tangents    349488 bytes (21843 vertices)
+      tangents     19072 bytes (1192 vertices)
+      tangents    306704 bytes (19169 vertices)
+      total      2701120 bytes
+      ---------------------
+      Generating optimized mesh "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/sentry/minesr34.dx90.vtx":
+      body parts:        24 bytes
+      models:            60 bytes
+      model LODs:        36 bytes
+      meshes:           315 bytes
+      strip groups:     561 bytes
+      strips:           595 bytes
+      verts:         379836 bytes
+      indices:       284622 bytes
+      bone changes:     232 bytes
+      everything:    666281 bytes
+      WARNING: ConVarRef r_staticlight_streams doesn't point to an existing ConVar
+      WARNING: ConVarRef r_staticlight_streams_indirect_only doesn't point to an existing ConVar
+      
+      Completed "minesr34.qc"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\sentry\minesr34.dx80.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\2002-Nissan-MINES-Skyline-R34\models\sentry\models\sentry"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\sentry\minesr34.dx90.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\2002-Nissan-MINES-Skyline-R34\models\sentry\models\sentry"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\sentry\minesr34.mdl" to "C:\Users\MbK\Desktop\3D\Vehicles\2002-Nissan-MINES-Skyline-R34\models\sentry\models\sentry"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\sentry\minesr34.phy" to "C:\Users\MbK\Desktop\3D\Vehicles\2002-Nissan-MINES-Skyline-R34\models\sentry\models\sentry"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\sentry\minesr34.sw.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\2002-Nissan-MINES-Skyline-R34\models\sentry\models\sentry"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\sentry\minesr34.vvd" to "C:\Users\MbK\Desktop\3D\Vehicles\2002-Nissan-MINES-Skyline-R34\models\sentry\models\sentry"
+  ... Compiling "minesr34.qc" finished. Check above for any errors.

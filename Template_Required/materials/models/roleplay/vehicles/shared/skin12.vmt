@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "dev/bump"
+	$bumpmap "dev/bump_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.30 0.30 0.31]"
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.7 1]"
+	$phongwarptexture "models/roleplay/vehicles/shared/skin12_warp"
+	$phongexponent 5
+	$phongboost 1.5
+
+	$rimlight 1
+	$rimlightexponent 8
+	$rimlightboost 1
+
+	$basetexturetransform "center 0 0 scale 70 70 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$rimmask 1
+}

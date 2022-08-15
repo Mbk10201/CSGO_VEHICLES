@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0"
+
+	"$basetexture" "models/roleplay/vehicles/shared/skin"
+	"$bumpmap" "models/roleplay/vehicles/shared/leather_light_bump"
+
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 5
+	"$phongexponenttexture" "models/roleplay/vehicles/shared/leather_light"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".2"
+	"$rimmask" "1"
+
+	"$detail" "models/roleplay/vehicles/shared/leather_light"
+	"$detailscale" "4"
+	"$detailblendfactor" "0.2"
+	"$detailblendmode" "0"
+
+	"$colorfix" "{200 20 20}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

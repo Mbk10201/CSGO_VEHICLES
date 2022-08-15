@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/ambulance/skin"
+	$bumpmap "dev/bump_normal"
+
+	$nocull 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+
+	$phong 1
+	$phongfresnelranges "[0.3 0.5 1]"
+	$halflambert 1
+	$phongexponent 10
+
+	$rimlight 1
+	$rimlightexponent 1
+	$rimlightboost 0.3
+
+	$nodecal 1
+
+	$blendtintbybasealpha 1
+
+	$rimmask 1
+}

@@ -1,0 +1,32 @@
+"vertexlitgeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 60 60 rotate 0 translate 0 0"
+	"$basetexture" "models/roleplay/vehicles/shared/skin"
+	"$bumpmap" "models/roleplay/vehicles/shared/skin_paintflakes_bump"
+	"$nodecal" "1"
+
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.0225 0.0225 0.0228]"
+	"$envmapfresnel" "20"
+
+	"$phong" "1" 
+	"$phongboost" "4" 
+	"$phongfresnelranges" "[1 1.9 5]" 
+	"$phongexponent" 1000
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 60 60 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/ground_pattern"
+	"$bumpmap"    "models/LoneWolfiesCars/trucks/shared/skin_nm"
+	"$phong" "1" 
+	"$nodecal" "1"
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 10
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

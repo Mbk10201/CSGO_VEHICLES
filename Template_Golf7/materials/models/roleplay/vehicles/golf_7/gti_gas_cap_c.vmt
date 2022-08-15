@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/golf_7/gti_gas_cap_c"
+	$bumpmap "models/roleplay/vehicles/golf_7/gti_gas_cap_nm"
+}

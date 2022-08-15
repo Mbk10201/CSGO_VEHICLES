@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/bugatti_chiron/grill1"
+	"$bumpmap" "models/skyautomotive/bugatti_chiron/grill1_nm"	
+
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+	"$nodecal" "1"
+	"$nocull" "1"
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.34 .4 1]" 
+	"$phongexponent" 85
+
+
+	"$translucent" "1"
+	"$colorfix" "{200 200 200}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

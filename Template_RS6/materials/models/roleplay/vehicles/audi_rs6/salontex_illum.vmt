@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/audi_rs6/salon_tex_tr"
+	$bumpmap "models/roleplay/vehicles/shared/skin_nm"
+
+	$alphatest 1
+
+	$phong 1
+	$phongfresnelranges "[0.41 0.72 0.43]"
+	$phongexponent 25
+	$phongboost 3
+
+	$nodecal 1
+
+	$allowalphatocoverage 1
+	$colorfix "{255 255 255}"
+	$phongfix "{22 22 22}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

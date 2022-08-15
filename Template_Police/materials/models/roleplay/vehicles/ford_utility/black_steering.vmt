@@ -1,0 +1,32 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/ford_utility/dash_material"
+	$bumpmap "models/roleplay/vehicles/shared/skin_nm"
+
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$halflambert 1
+	$phongexponent 64
+	$phongboost 0.1
+
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0.1
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+	$phongfix "{1 1 1}"
+	$rimmask 1
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/golf_7/gti_controls_c"
+	$bumpmap "dev/bump_normal"
+}

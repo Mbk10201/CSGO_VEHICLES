@@ -1,0 +1,33 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/ambulance/nodamage"
+	$bumpmap "dev/bump_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.07 0.07 0.07]"
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongtint "[0.10 0.10 0.10]"
+	$phongexponent 5
+	$phongboost 2
+
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 0.5
+
+	$nodecal 1
+
+	$colorfix "{255 255 255}"
+	$phongfix "{1 1 1}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

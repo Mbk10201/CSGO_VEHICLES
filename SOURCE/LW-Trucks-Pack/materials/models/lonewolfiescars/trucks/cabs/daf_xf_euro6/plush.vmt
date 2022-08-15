@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/plush"
+	"$bumpmap"    "models/LoneWolfiesCars/trucks/shared/cloth_bump"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.1"
+	"$phongexponent" 8 
+	"$phongfresnelranges" "[0.25 1.1 1]" 
+	"$colorfix" "{200 200 200}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+
+}

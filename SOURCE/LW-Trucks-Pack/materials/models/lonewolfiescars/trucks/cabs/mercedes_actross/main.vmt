@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/mercedes_actross/main"
+	"$bumpmap" "models/LoneWolfiesCars/trucks/cabs/mercedes_actross/main_bump"
+
+	"$nodecal" "1"
+
+	"$phong" 1
+	"$phongexponent" 10
+	"$phongtint" "[0.1 0.1 0.1]"
+	"$phongboost" 3
+	"$phongfresnelranges" "[1 1 1]"
+
+	"$rimlight" 1
+	"$rimlightboost" 0.9
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	// Original shader: drawflat
+	"$basetexture" "mdj/subaru/subaru2015/lights"
+	"$bumpmap" "mdj/subaru/subaru2015/lights_nm"
+	"$flat" 1
+	"%noToolTexture" 1
+
+	"$colorfix" "[1 1 1]"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/ctvehicles/shared/common/white"
+"$bumpmap" "models/ctvehicles/shared/common/skin_n"
+"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "3.1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 55
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.095 0.095 0.095]"
+	"$colorfix" "{0 0 0}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

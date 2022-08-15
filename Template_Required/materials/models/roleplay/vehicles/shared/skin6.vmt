@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/skin6"
+	$bumpmap "dev/bump_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.60 0.60 0.60]"
+	$envmapfresnel 1
+
+	$phong 1
+	$phongfresnelranges "[0.2 0.7 1]"
+	$halflambert 1
+	$phongexponent 7
+	$phongboost 0.6
+
+	$rimlight 1
+	$rimlightexponent 8
+	$rimlightboost 0.7
+
+	$basetexturetransform "center 0.2 0.2 scale 5 8 rotate 40 translate 0 0"
+
+	$nodecal 1
+
+	$rimmask 1
+}

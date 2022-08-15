@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/dash_details"
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+	"$bumpmap" "models/lonewolfiescars/trucks/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.04" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$detail" "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/dash_details_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "40"
+	"$detailblendmode" "1"
+}

@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skyautomotive/toycamry18/interior"
+	"$bumpmap" "models/skyautomotive/toycamry18/interior_nm"
+
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongexponent" 50
+	"$phongfresnelranges" "[1 1 1]" 
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.5 .5 .5]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" ".1"
+    	"$envmapfresnel" "1"
+
+	"$colorfix" "{210 210 210}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$model" 1
+	"$basetexture" "schmal/fpi_utility/led_white"
+	"$additive" 1
+	"$nodecal" "1"
+}
+

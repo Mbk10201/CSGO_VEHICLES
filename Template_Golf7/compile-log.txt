@@ -1,0 +1,380 @@
+// Created by Crowbar 0.71
+
+  Compiling "Golf_7.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\template_golf7\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "Golf_7.qc"
+      Building binary model files...
+      Working on "Golf_7.qc"
+      SMD MODEL body1.smd
+      SMD MODEL body2.smd
+      SMD MODEL body3.smd
+      SMD MODEL body4.smd
+      SMD MODEL body5.smd
+      SMD MODEL bumperfa.smd
+      SMD MODEL bumperfc.smd
+      SMD MODEL bumperfd.smd
+      SMD MODEL bumperfe.smd
+      SMD MODEL bumperra.smd
+      SMD MODEL bumperrb.smd
+      SMD MODEL bumperrd.smd
+      SMD MODEL bumperre.smd
+      SMD MODEL hooda.smd
+      SMD MODEL hoodb.smd
+      SMD MODEL hoodc.smd
+      SMD MODEL hlights1.smd
+      SMD MODEL hlights2.smd
+      SMD MODEL tlights1.smd
+      SMD MODEL tlights2.smd
+      SMD MODEL steering_wheel.smd
+      SMD MODEL rubber.smd
+      SMD MODEL vossen_01.smd
+      SMD MODEL vossen_02.smd
+      SMD MODEL vossen_03.smd
+      SMD MODEL vorsteiner_01.smd
+      SMD MODEL vorsteiner_02.smd
+      SMD MODEL vorsteiner_03.smd
+      SMD MODEL vorsteiner_04.smd
+      SMD MODEL vorsteiner_05.smd
+      SMD MODEL caliper.smd
+      SMD MODEL brake.smd
+      SMD MODEL phy.smd
+      SMD MODEL sequences.smd
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: gti_glas_c
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: bottom
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: interior_leather_dark
+      Processing LOD for material: glass_black
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: gti_logo_c
+      Processing LOD for material: gti_gas_cap_c
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: interior_leather_dark
+      Processing LOD for material: cloth
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: interior_leather_dark
+      Processing LOD for material: cloth
+      Processing LOD for material: gti_details_1_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_symbols_e
+      Processing LOD for material: gti_controls_e
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: glass_black
+      Processing LOD for material: gti_details_1_c
+      Processing LOD for material: gti_symbols_e
+      Processing LOD for material: gti_controls_c
+      Processing LOD for material: gti_symbols_c
+      Processing LOD for material: gti_pedals_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: grill
+      Processing LOD for material: gti_detail_square_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: grill
+      Processing LOD for material: gti_detail_square_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: grill
+      Processing LOD for material: gti_detail_square_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: grill
+      Processing LOD for material: gti_detail_square_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: grill
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: skin
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: skin
+      Processing LOD for material: black
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: glass_black
+      Processing LOD for material: gti_logo_c
+      Processing LOD for material: grill
+      Processing LOD for material: glass
+      Processing LOD for material: chrome
+      Processing LOD for material: gti_head_lights_c
+      Processing LOD for material: glass_black
+      Processing LOD for material: gti_logo_c
+      Processing LOD for material: grill
+      Processing LOD for material: glass
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: glass
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: gti_rear_lights_c
+      Processing LOD for material: plastic_matte
+      Processing LOD for material: interior_leather_dark
+      Processing LOD for material: glass_black
+      Processing LOD for material: gti_symbols_e
+      Processing LOD for material: chrome2
+      Processing LOD for material: sterr_gti_logo_c
+      Processing LOD for material: tire
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: skin
+      Processing LOD for material: chrome2
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Model has 6 convex sub-parts
+      Collision model completed.
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/golf_7.mdl:
+      Loading preexisting model: E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/golf_7.mdl
+         Found 15 preexisting sequences.
+      bones         6148 bytes (18)
+         animation       x       y       ips    angle
+      animations    5180 bytes (29 anims) (30 frames) [0:01]
+      Building sequence index remapping table...
+      No re-ordering required.
+      sequences     4116 bytes (15 seq) 
+      hdr@0577F19C=71630200
+      ik/pose       5748 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      hdr@0577F19C=71630200
+      textures      2240 bytes
+      keyvalues      100 bytes
+      hdr@0577F194=71630398
+      hdr@0577F19C=71630200
+      bone transforms     2512 bytes
+      bone flex driver       0 bytes
+      bodygroup presets       0 bytes
+      Collision model volume 751472.19 in^3
+      collision        0 bytes
+      total        45324
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/golf_7.vvd:
+      vertices    691584 bytes (14408 vertices)
+      vertices    564576 bytes (11762 vertices)
+      vertices    535584 bytes (11158 vertices)
+      vertices    828048 bytes (17251 vertices)
+      vertices    257088 bytes (5356 vertices)
+      vertices    121536 bytes (2532 vertices)
+      vertices    111168 bytes (2316 vertices)
+      vertices    113040 bytes (2355 vertices)
+      vertices    109104 bytes (2273 vertices)
+      vertices    158736 bytes (3307 vertices)
+      vertices    183696 bytes (3827 vertices)
+      vertices    137232 bytes (2859 vertices)
+      vertices    128448 bytes (2676 vertices)
+      vertices     16032 bytes (334 vertices)
+      vertices     44448 bytes (926 vertices)
+      vertices     46368 bytes (966 vertices)
+      vertices    144336 bytes (3007 vertices)
+      vertices    147600 bytes (3075 vertices)
+      vertices     74496 bytes (1552 vertices)
+      vertices     50112 bytes (1044 vertices)
+      vertices    323040 bytes (6730 vertices)
+      vertices    107664 bytes (2243 vertices)
+      vertices    373440 bytes (7780 vertices)
+      vertices    579552 bytes (12074 vertices)
+      vertices    473856 bytes (9872 vertices)
+      vertices    501744 bytes (10453 vertices)
+      vertices    804528 bytes (16761 vertices)
+      vertices    760032 bytes (15834 vertices)
+      vertices    546240 bytes (11380 vertices)
+      vertices    482880 bytes (10060 vertices)
+      vertices     62208 bytes (1296 vertices)
+      vertices    112896 bytes (2352 vertices)
+      tangents    230528 bytes (14408 vertices)
+      tangents    188192 bytes (11762 vertices)
+      tangents    178528 bytes (11158 vertices)
+      tangents    276016 bytes (17251 vertices)
+      tangents     85696 bytes (5356 vertices)
+      tangents     40512 bytes (2532 vertices)
+      tangents     37056 bytes (2316 vertices)
+      tangents     37680 bytes (2355 vertices)
+      tangents     36368 bytes (2273 vertices)
+      tangents     52912 bytes (3307 vertices)
+      tangents     61232 bytes (3827 vertices)
+      tangents     45744 bytes (2859 vertices)
+      tangents     42816 bytes (2676 vertices)
+      tangents      5344 bytes (334 vertices)
+      tangents     14816 bytes (926 vertices)
+      tangents     15456 bytes (966 vertices)
+      tangents     48112 bytes (3007 vertices)
+      tangents     49200 bytes (3075 vertices)
+      tangents     24832 bytes (1552 vertices)
+      tangents     16704 bytes (1044 vertices)
+      tangents    107680 bytes (6730 vertices)
+      tangents     35888 bytes (2243 vertices)
+      tangents    124480 bytes (7780 vertices)
+      tangents    193184 bytes (12074 vertices)
+      tangents    157952 bytes (9872 vertices)
+      tangents    167248 bytes (10453 vertices)
+      tangents    268176 bytes (16761 vertices)
+      tangents    253344 bytes (15834 vertices)
+      tangents    182080 bytes (11380 vertices)
+      tangents    160960 bytes (10060 vertices)
+      tangents     20736 bytes (1296 vertices)
+      tangents     37632 bytes (2352 vertices)
+      total      12788480 bytes
+      ---------------------
+      Generating optimized mesh "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/golf_7.dx90.vtx":
+      body parts:       120 bytes
+      models:           720 bytes
+      model LODs:       432 bytes
+      meshes:          1368 bytes
+      strip groups:    5016 bytes
+      strips:          5320 bytes
+      verts:        1798371 bytes
+      indices:      1330296 bytes
+      bone changes:    2088 bytes
+      everything:   3143335 bytes
+      WARNING: ConVarRef r_staticlight_streams doesn't point to an existing ConVar
+      WARNING: ConVarRef r_staticlight_streams_indirect_only doesn't point to an existing ConVar
+      
+      Completed "Golf_7.qc"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\golf_7.dx90.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Golf7\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\golf_7.mdl" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Golf7\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\golf_7.phy" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Golf7\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\golf_7.vvd" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_Golf7\models\roleplay\vehicles"
+  ... Compiling "Golf_7.qc" finished. Check above for any errors.

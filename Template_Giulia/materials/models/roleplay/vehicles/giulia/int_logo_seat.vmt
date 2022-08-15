@@ -1,0 +1,39 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\roleplay\vehicles\giulia\intlogos"
+	"$bumpmap"    "models\roleplay\vehicles\giulia\intlogonm"
+
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongexponent" 90
+	"$phongfresnelranges" "[1 1 1]" 
+
+	"$alphatest" "1"
+	"$alphatestreference" "0.5"
+	"$allowalphatocoverage" "1"
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.01 .01 .01]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" ".1"
+    	"$envmapfresnel" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".2"
+	"$rimmask" "1"
+
+	"$colorfix" "{40 40 40}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

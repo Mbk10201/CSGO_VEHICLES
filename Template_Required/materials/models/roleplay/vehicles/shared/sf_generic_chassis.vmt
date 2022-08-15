@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	$basetexture "models/roleplay/vehicles/shared/sf_generic_chassis"
+	$bumpmap "dev/bump_normal"
+
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[1 1 1]"
+	$phongtint "[0.10 0.10 0.10]"
+	$phongexponent 5
+	$phongboost 0.01
+
+	$colorfix "{255 255 255}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 "$colorfix"
+			resultVar "$color"
+		}
+	}
+}

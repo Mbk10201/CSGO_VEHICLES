@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+    "$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0"
+	$basetexture "models/crskautos/shared/projectcars/common_carpet_charcoal_diff"
+    "$bumpmap" "models/crskautos/shared/projectcars/common_carpet_norm"
+    "$nodecal" "1"
+	"$halflambert" 1
+    "$phong" "1" 
+	"$phongboost" "0.87" 
+	"$phongfresnelranges" "[.05 .12 0.2]" 
+	"$phongexponent" 7
+    "$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+    "$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+

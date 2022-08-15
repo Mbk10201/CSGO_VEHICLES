@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+//	"$basetexturetransform" "center .2 .2 scale 20 20 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/trucks/shared/black"
+	"$bumpmap" "models/LoneWolfiesCars/trucks/shared/skin_nm"
+	"$nodecal" "1"
+	"$nocull" "1"
+	"$phong" "1" 
+	"$phongboost" "0.01" 
+	"$phongexponent" 5
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{190 190 190}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	$detail "models/LoneWolfiesCars/trucks/cabs/daf_xf_euro6/plastic"
+	$detailscale 20
+	$detailblendfactor 2
+	$detailblendmode 0
+}

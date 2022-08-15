@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/roleplay/vehicles/giulia/EXT_Caliper"
+	"$bumpmap" "models/roleplay/vehicles/giulia/EXT_Caliper_nm"
+
+  	"$surfaceprop" "metal"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.005 .005 .005]"
+    	"$envmapcontrast" "1"
+   	"$envmapsaturation" "1"
+    	"$envmapfresnel" "1"
+
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongexponent" 6
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{220 220 220}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
